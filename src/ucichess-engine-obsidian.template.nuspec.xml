@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd nuspec.xsd">
+    <metadata>
+        <owners>Bertram Fey</owners>
+        <id>ucichess-engine-obsidian</id>
+        <version>%%VERSION%%</version>
+        <title>Obsidian UCI Chess Engine</title>
+        <authors>Gabriele Lombardo</authors>
+        <summary>
+            An UCI chess engine
+        </summary>
+        <description>
+            A top tier UCI chess engine written in c++, that I started developing in april 2023.
+            As of 18 July 2024, Obsidian is the 3rd strongest engine at 10+1s, after Stockfish and Torch. January 2025: It is 3rd in SPCC too.
+        </description>
+        <projectUrl>https://github.com/gab8192/Obsidian</projectUrl>
+        <licenseUrl>https://github.com/gab8192/Obsidian/blob/main/LICENSE</licenseUrl>
+        <tags>uci chess</tags>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools"/>
+    </files>
+</package>
