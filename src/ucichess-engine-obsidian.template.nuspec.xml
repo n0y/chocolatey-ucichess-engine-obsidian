@@ -16,7 +16,9 @@
             As of 18 July 2024, Obsidian is the 3rd strongest engine at 10+1s, after Stockfish and Torch. January 2025: It is 3rd in SPCC too.
         </description>
         <projectUrl>https://github.com/gab8192/Obsidian</projectUrl>
+        <releaseNotes>https://github.com/gab8192/Obsidian/releases</releaseNotes>
         <licenseUrl>https://github.com/gab8192/Obsidian/blob/main/LICENSE</licenseUrl>
+        <packageSourceUrl>https://github.com/n0y/chocolatey-ucichess-engine-obsidian</packageSourceUrl>
         <tags>uci chess</tags>
     </metadata>
     <files>
